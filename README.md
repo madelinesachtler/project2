@@ -9,6 +9,9 @@ We downloaded the csv files and imported them into Pandas, and subsquently forma
 
 ## Transform 
 A substantial amount of data cleaning was requried in order to create a dataframe that was worth keeping with interesting information.
-
+- Once imported, we selected the relevant data for each country from each of the three dataframes.
+- Rows with NaN values were dropped and whitespace was stripped from the "Country" columns.
+- After cleaning each of the three unique dataframes, we merged each dataframe on "Country".
+- After dropping remaining NaN rows, the final dataframe contained complete data for 116 different countries.
 
 ## Load 
