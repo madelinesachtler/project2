@@ -1,7 +1,7 @@
 # Project 2 
 
 
-## EXTRACT 
+## Extract
 Country data was extracted from Kaggle.com
 - We decided that it was easiest to collect datasets with a common column name. 
 - We found three datasets that all included information about food, happiness and GDP all connected by the Country name. 
