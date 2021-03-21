@@ -15,4 +15,7 @@ A substantial amount of data cleaning was requried in order to create a datafram
 - After cleaning each of the three unique dataframes, we merged each dataframe on "Country".
 - After dropping remaining NaN rows, the final dataframe contained complete data for 116 different countries.
 
-## Load 
+## Load  
+Once we had created our cleaned dataframe, we modified the columns to be lower case in order for the database to correctly recognize the columns. It was necessary for the columns to also be in the correct order in both the database and the dataframes for it to be properly imported. 
+- Created a config.py document that held my username and password for postgres without pulically uploading personal information. 
+- Made sure that the data had imported into SQL correctly by using the SELECT * from function. 
